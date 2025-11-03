@@ -1,5 +1,4 @@
-#input kalimat bebas
-kalimat = input("Masukkan kata: ")
+kata = "informatika"
 
-for i in range(1, len(kalimat) + 1):
-    print(kalimat[:i])
+for i in range(1, len(kata) + 1):
+    print(kata[:i])
